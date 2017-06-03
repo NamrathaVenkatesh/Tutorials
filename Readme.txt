@@ -1,20 +1,27 @@
-Now let us take look at the elements of html...
-The entire page in html is built up with elements
-The syntax of an element being <tagname> .... Content Here ..... </tagname>
 
-Lets begin with some basic elements 
-h1 - header
-h2, h3, h4, h5, h6, h7 all headers
+p - paragraph
+pre- defined paragraph (What u wite is what u get)
 
 
 Getting to the task now... Open index.html
 
-and replace ur Hello World with
+and replace the content inside body tag with
 
-<h1>Hello World</h1>
-<h2>Hello World</h2>
-<h3>Hello World</h3>
-<h4>Hello World</h4>
-<h5>Hello World</h5>
-<h6>Hello World</h6>
-<h7>Hello World</h7>
+This is p tag
+<p>
+Once upon a time there lived a lion in a forest. One day after a heavy meal. It was sleeping under a tree. After a while, there came a mouse and it started to play on the lion. Suddenly the lion got up with anger and looked for those who disturbed its nice sleep. Then it saw a small mouse standing trembling with fear. The lion jumped on it and started to kill it. The mouse requested the lion to forgive it. The lion felt pity and left it. The mouse ran away. 
+
+
+
+On another day, the lion was caught in a net by a hunter. The mouse came there and cut the net. Thus it escaped. There after, the mouse and the lion became friends. They lived happily in the forest afterwards. 
+</p>
+
+
+This is pre tag
+<pre>
+Once upon a time there lived a lion in a forest. One day after a heavy meal. It was sleeping under a tree. After a while, there came a mouse and it started to play on the lion. Suddenly the lion got up with anger and looked for those who disturbed its nice sleep. Then it saw a small mouse standing trembling with fear. The lion jumped on it and started to kill it. The mouse requested the lion to forgive it. The lion felt pity and left it. The mouse ran away. 
+
+
+
+On another day, the lion was caught in a net by a hunter. The mouse came there and cut the net. Thus it escaped. There after, the mouse and the lion became friends. They lived happily in the forest afterwards. 
+</pre>
