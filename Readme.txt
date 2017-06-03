@@ -1,19 +1,20 @@
-All html pages are made of tags. Tags begin with < and end with >. 
-Once u open a tag.. U will have to close it (with exceptions): eg- <div>   </div>
-The mother or root tag of a html page is <html>
-This tag containes two other root tags namely 
-<head> and <body>
+Now let us take look at the elements of html...
+The entire page in html is built up with elements
+The syntax of an element being <tagname> .... Content Here ..... </tagname>
 
-The head tag comprises of meta data and will be loaded first while the body is self explainatory... Whatever is in the
-body will be rendered for view in your browser
+Lets begin with some basic elements 
+h1 - header
+h2, h3, h4, h5, h6, h7 all headers
 
-A simple html page (Type this in index.html and open in your webbrowser)
 
-<html>
-	<head>
-	</head>
-	
-	<body>
-		Hello World
-	</body>
-</html>
+Getting to the task now... Open index.html
+
+and replace ur Hello World with
+
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<h4>Hello World</h4>
+<h5>Hello World</h5>
+<h6>Hello World</h6>
+<h7>Hello World</h7>
