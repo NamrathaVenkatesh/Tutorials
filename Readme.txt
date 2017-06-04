@@ -1,36 +1,60 @@
-(Something in the head tag)
-Hope u have done enough research on CSS
+(How to identify the elements created... A new attribute "id")
 
-Consider this example where you have five div with common background-color and text color(to set text color the css property is color: <value>;)
-<div style='background-color: red; color: blue;'>One</div>
-<div style='background-color: red; color: blue;'>Two</div>
-<div style='background-color: red; color: blue;'>Three</div>
-<div style='background-color: red; color: blue;'>Four</div>
-<div style='background-color: red; color: blue;'>Five</div>
+id is an attribute by which u can identify an element.
 
-Ok. This seems do-able,but what if you had hunderds of these elements with common property... inline-css won't look tidy.
-So we will add the common styles in the head tag and point the element with the common property to the head.
+Syntax:-
+id=<unique-name>
 
-A new element in the head tag <style> .... css properties </style>
+eg:-
+
+<div id="demo"></div>
+
+Considering the previous code..
+
+There is a new issue... What if I want a div with text color red and another div with text color blue 
+and also with some common attributes among them.
+
+We can use css selectors. Selectors are like pointers. In the above example we saw a div with id = demo.
+We can add a pointer in css with any attribute only defined to that element.
+
+Syntax:-
+#<id-name>{
+	css properties
+}
+
+eg:-
+
+#demo{
+	css properties
+}
+
 
 replace the entire HTML page as:
 
 <html>
 	<head>
 		<style>
+			/* This is a comment */
+			/*Common property */
 			div{
-				background-color: red;
+				background-color: black;
+				margin: 10px;
+				height: 100px;
+			}
+			/* Style only for element with id=demo1 */
+			#demo1{
+				color: red;
+			}
+			/* Style only for element with id=demo2 */
+			#demo2{
 				color: blue;
 			}
 		</style>
 	</head>
 
 	<body>
-		<div>One</div>
-		<div>Two</div>
-		<div>Three</div>
-		<div>Four</div>
-		<div>Five</div>
+		<div id="demo1">Text is in red color</div>
+		<div id="demo2">Text is in blue color</div>
 	</body>
 
 </html>
