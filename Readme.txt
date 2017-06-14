@@ -1,41 +1,36 @@
-(Something in the head tag)
-Hope u have done enough research on CSS
+Here is an example of linking an external style sheet through the link tag in the head tag...
+href="url" - points to the location of your style sheet...
 
-Consider this example where you have five div with common background-color and text color(to set text color the css property is color: <value>;)
-<div style='background-color: red; color: blue;'>One</div>
-<div style='background-color: red; color: blue;'>Two</div>
-<div style='background-color: red; color: blue;'>Three</div>
-<div style='background-color: red; color: blue;'>Four</div>
-<div style='background-color: red; color: blue;'>Five</div>
-
-Ok. This seems do-able,but what if you had hunderds of these elements with common property... inline-css won't look tidy.
-So we will add the common styles in the head tag and point the element with the common property to the head.
-
-A new element in the head tag <style> .... css properties </style>
+U can open the styles.css file in the css folder and toy with that ;p
 
 replace the entire HTML page as:
 
 <html>
 	<head>
-		<style>
-			div{
-				background-color: red;
-				color: blue;
-			}
-		</style>
+		<link href="css/styles.css" rel="stylesheet" />
 	</head>
-
+	
 	<body>
-		<div>One</div>
-		<div>Two</div>
-		<div>Three</div>
-		<div>Four</div>
-		<div>Five</div>
+		<div id="nav-bar">
+			<div id="nav-items">
+				<div class="nav-item">
+					Home
+				</div>
+				<div class="nav-item">
+					Menu 1
+				</div>
+				<div class="nav-item">
+					Menu 2
+				</div>
+				<div class="nav-item">
+					Menu 3
+				</div>
+				<div class="search-bar">
+					<input type="text" placeholder="Search" id="search-box">
+					<button type="button" id="search-button">Search</button>
+				</div>
+			</div>
+		</div>
+	
 	</body>
-
 </html>
-
-
-It has the same effect as above but less code...
-Here is a link to the table of all css property and preferred values with examples.
-https://pageresource.com/css-properties-list/
