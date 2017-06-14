@@ -20,6 +20,11 @@ body, html{
 				color: #ccc;
 				padding-top: 10px;
 			}
+.nav-item : hover{
+				color: #333;
+				background: #ccc;
+			}
+
 			.search-bar{
 				display: inline-block;
 				width: 300px;
